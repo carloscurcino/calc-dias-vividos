@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de dias vividos</title>
+    <link rel="stylesheet" href="Calc-style.css">
+   <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />-->
+</head>
+<body>
+    <header>Calculadora de Dias Vividos</header>
+    <section>
+        <div>
+            <p>Qual seu nome? <input type="text" name="nome" id="nome"></p>
+            <p>Digite tudo numericamente, até o mês!</p>
+           <p>Ano atual: <input type="number" name="AnoAT" id="AnoAT"></p>
+           <p>Mês atual: <input type="number" name="MesAt" id="MesAt"></p>
+           <p>Dia atual: <input type="number" name="DiaAT" id="DiaAT"></p>
+            <p>Ano de nascimento: <input type="number" name="AnoNas" id="AnoNas"></p>
+            <p>Mês de nascimento<input type="number" name="MesNas" id="MesNas"></p>
+            <p>Dia de nascimento: <input type="number" name="DiaNas" id="DiaNas"></p>
+            
+
+           <center> <input type="button" value="Calcular" class="botaoEnviar" onclick="calcDias()"></center>
+           
+        </div>
+        <br>
+        <div id="res">
+            Resultado aqui!
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy;CarlosCurcino</p>
+    </footer>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
