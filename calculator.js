@@ -10,13 +10,13 @@ function calcDias() {
     let MesNas = document.querySelector("input#MesNas")
     let DiaNas = document.querySelector("input#DiaNas")
     
-    let AnoNasC = Number(AnoNas.value)
-    let MesNasC = Number(MesNas.value)
-    let DiaNasC = Number(DiaNas.value)
+    let AnoNasC = Number(AnoNas)
+    let MesNasC = Number(MesNas)
+    let DiaNasC = Number(DiaNas)
     
-    let AnoATC = Number(AnoAT.value)
-    let MesATC = Number(MesAT.value)
-    let DiaATC = Number(DiaAT.value)
+    let AnoATC = Number(AnoAT)
+    let MesATC = Number(MesAT)
+    let DiaATC = Number(DiaAT)
     
 
     let AV = 0 //Anos Inteiros Vividos
