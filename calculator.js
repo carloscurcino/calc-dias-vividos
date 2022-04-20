@@ -10,40 +10,28 @@ function calcDias() {
     let MesNas = document.querySelector("input#MesNas")
     let DiaNas = document.querySelector("input#DiaNas")
     
-    let AnoNasC = Number(AnoNas)
-    let MesNasC = Number(MesNas)
-    let DiaNasC = Number(DiaNas)
+    let AnoNasC = Number(AnoNas.value)
+    let MesNasC = Number(MesNas.value)
+    let DiaNasC = Number(DiaNas.value)
     
-    let AnoATC = Number(AnoAT)
-    let MesATC = Number(MesAT)
-    let DiaATC = Number(DiaAT)
+    let AnoATC = Number(AnoAT.value)
+    let MesATC = Number(MesAT.value)
+    let DiaATC = Number(DiaAT.value)
     
 
-    let AV = '' //Anos Inteiros Vividos
-    let AB = '' //Quantidade de anos bissexto
-    let AC = '' //Quantidade de anos comuns
-    let DVint = '' //Dias vividos de Anos Inteiros
-    let MVint = '' //Meses vividos de dias inteiros
-    let TMV = '' //Total de meses vividos
-    let d30 = '' //Quantidade de meses com 30 dias
-    let d31 = '' //Quantidade de meses com 31 dias
-    let fev = '' //Quantidade de fevereiros
-    let d28 = '' //Fevereiros com 27
-    let DV = '' //Dias vividos
-    let TDV = '' //Total de dias vividos
+    let AV = 0 //Anos Inteiros Vividos
+    let AB = parseInt(0) //Quantidade de anos bissexto
+    let AC = 0 //Quantidade de anos comuns
+    let DVint = 0 //Dias vividos de Anos Inteiros
+    let MVint = 0 //Meses vividos de dias inteiros
+    let TMV = 0 //Total de meses vividos
+    let d30 = 0 //Quantidade de meses com 30 dias
+    let d31 = 0 //Quantidade de meses com 31 dias
+    let fev = 0 //Quantidade de fevereiros
+    let d28 = 0 //Fevereiros com 27
+    let DV = 0 //Dias vividos
+    let TDV = 0 //Total de dias vividos
 
-    /*let AVC = Number(AV)
-    let ABC = Number(AB)
-    let ACC = Number(AC)
-    let DVintC = Number(DVint)
-    let MVintC = Number(MVint)
-    let TMVC = Number(TMV)
-    let d30C = Number(d30)
-    let d31C = Number(d31)
-    let fevC = Number(fev)
-    let d28C = Number(d28)
-    let DVC = Number(DV)
-    let TDVC = Number(TDV)*/
 
     AV = AnoATC - AnoNasC 
     AB = AV/4 
