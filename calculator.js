@@ -20,7 +20,7 @@ function calcDias() {
     
 
     let AV = 0 //Anos Inteiros Vividos
-    let AB = parseInt(0) //Quantidade de anos bissexto
+    let AB = 0 //Quantidade de anos bissexto
     let AC = 0 //Quantidade de anos comuns
     let DVint = 0 //Dias vividos de Anos Inteiros
     let MVint = 0 //Meses vividos de dias inteiros
@@ -50,6 +50,4 @@ function calcDias() {
     TDV = DV-((DiaATC+DiaNasC)*27)
     res.innerHTML = `Olá, ${nome}! você já viveu ${TDV} ${typeof(TDV)} dias!`
          
-    
-   
  }
